@@ -1,0 +1,16 @@
+{
+  "name": "Total SP Follower",
+  "version": "1.0.0",
+  "description": "Farinside Total Steem Power Follower",
+  "main": "run.js",
+  "dependencies": {
+    "node-json-rpc": "0.0.1",
+    "steem": "^0.6.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "bot": "node run.js || echo 'Failed running script...'"
+  },
+  "author": "lutfinn",
+  "license": "MIT"
+}
